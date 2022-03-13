@@ -25,13 +25,13 @@ activity_labels <- read_table(file.path("UCI HAR Dataset", file_list$value[1]),
 
 Throughout the analysis, besides binding the files contaning values with its corresponding column names, I basically created three variable names:
 
-subject_id: number of the corresponding subject in the "subject_test.txt"" and "subject_train.txt" files, it goes from 1 to 30
+*subject_id*: number of the corresponding subject in the "subject_test.txt"" and "subject_train.txt" files, it goes from 1 to 30
 
-activity_code: number of the corresponding activity, as stated in the respository file named
+*activity_code*: number of the corresponding activity, as stated in the respository file named
 "activity labels.txt"
 
-activity_text: the text for the corresponding activity as stated in the repository file named
+*activity_text*: the text for the corresponding activity as stated in the repository file named
 "activity labels.txt"
 
-Even though they are in different bases, it is worth noting that I added to every value column name in the tidy table with averages of the means and std the prefix "avg_" so as to avoid
+Even though they are in different data sets, it is worth noting that I added to every value column name in the tidy table with averages of the means and std the prefix "avg_" so as to avoid
 any confusion.
